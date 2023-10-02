@@ -1,0 +1,86 @@
+body{
+    font-family: Century Gothic,CenturyGothic;
+    margin: 10px 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #4083FB; 
+    border-width: 3px;  
+    padding: 15px;
+}
+.appContainer{
+    width: 350px;
+}
+
+.flex-grid {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.col {
+    flex: 1;
+}
+
+#date{
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: large;
+    margin-top: 10px;
+}
+
+.table td {
+    font-size: 12px; /* Adjust the font size as needed */
+}
+
+#buttonContainer{
+    text-align: center;
+}
+
+#collect{
+    display: inline-block;
+}
+
+.statsWrapper {
+    border: solid;
+    border-radius: 10px;
+    border-color: #BA81C5; 
+    border-width: 3px;
+    padding: 0px 20px;
+    margin-bottom: 10px;   
+}
+
+.yellowBanner {
+    text-align: center;
+    vertical-align: center;
+    height: 35px;
+    width: fit-content;
+    background-color: #f3f7a6;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.greenBanner {
+    text-align: center;
+    vertical-align: center;
+    height: 35px;
+    width: fit-content;
+    background-color: #A0C35A;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+

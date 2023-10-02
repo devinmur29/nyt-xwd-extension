@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "NYT Crossword Stats",
+    "description": "Tracking stats for nyt crosswords bc nyt doesn't give enough of them",
+    "version": "1.0",
+    "permissions":["activeTab","storage"],
+    "background":{
+      "service_worker":"background.js"
+    },
+    "action": {
+      "default_popup": "hello.html",
+      "default_icon": "nytxwd.png"
+    },
+    "content_scripts":[
+      {
+        "matches": ["https://*.nytimes.com/crosswords/game/daily/*"],
+        "js": ["scripts/contentscript.js"]
+      }
+    ]
+  }
+  
